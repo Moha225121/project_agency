@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Project Agency logo</title>
+  <desc id="desc">A teal geometric P mark on an orange field.</desc>
+  <rect width="120" height="120" rx="24" fill="#ff7a1a"/>
+  <rect x="35" y="26" width="50" height="68" rx="5" fill="#096f68"/>
+  <path d="M46 38h27c9.5 0 15.5 5.9 15.5 14.4 0 8.6-6 14.6-15.5 14.6H58v14H46V38Zm12 11v7.8h13.2c3.2 0 5-1.5 5-3.9 0-2.5-1.8-3.9-5-3.9H58Z" fill="#ff7a1a"/>
+  <path d="M46 76h35v10H46V76Z" fill="#ff7a1a"/>
+  <circle cx="61" cy="98" r="7" fill="#096f68"/>
+</svg>
