@@ -1,68 +1,235 @@
-
 <!DOCTYPE html>
-<html lang="ar">
+<html id="html-root" lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Agency</title>
+    <meta name="description" content="Project Agency - وكالة تسويق رقمي في ليبيا تساعد العلامات التجارية على النمو من خلال التسويق الاستراتيجي والمحتوى الإبداعي.">
+    <title>Project Agency | Digital Marketing Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="container nav-content">
+            <a class="logo" href="#home" aria-label="Project Agency home">
+                <span class="logo-mark">P</span>
+                <span>Project Agency</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
+                <a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+                <a href="#work" data-ar="طريقة العمل" data-en="Process">طريقة العمل</a>
+                <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+            </div>
+            <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">EN</button>
+        </div>
+    </nav>
 
-<header>
-    <div class="container">
-        <h1>Project Agency</h1>
-        <p>نصنع لك حضورًا رقميًا يضعك في الصدارة</p>
-        <a href="#contact" class="btn">تواصل معنا</a>
-    </div>
-</header>
+    <header id="home" class="hero">
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
 
-<section class="about">
-    <div class="container">
-        <h2>من نحن</h2>
-        <p>نحن وكالة تسويق رقمي في ليبيا نقدم حلولاً متكاملة تشمل إدارة السوشال ميديا، الإعلانات الممولة، بناء الهوية البصرية، وإنتاج المحتوى الاحترافي.</p>
-    </div>
-</section>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="eyebrow" data-ar="وكالة تسويق رقمي في ليبيا" data-en="Digital Marketing Agency in Libya">وكالة تسويق رقمي في ليبيا</span>
+                <h1 data-ar="نصنع لك حضورًا رقميًا يضع علامتك في الصدارة" data-en="We create a digital presence that puts your brand ahead">نصنع لك حضورًا رقميًا يضع علامتك في الصدارة</h1>
+                <p data-ar="نساعد الشركات والمشاريع على بناء هوية قوية، محتوى جذاب، وحملات إعلانية مدروسة تحقق نتائج واضحة." data-en="We help companies and projects build strong brands, engaging content, and strategic advertising campaigns that drive results.">
+                    نساعد الشركات والمشاريع على بناء هوية قوية، محتوى جذاب، وحملات إعلانية مدروسة تحقق نتائج واضحة.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary" data-ar="ابدأ الآن" data-en="Get Started">ابدأ الآن</a>
+                    <a href="#services" class="btn btn-secondary" data-ar="استكشف الخدمات" data-en="Explore Services">استكشف الخدمات</a>
+                </div>
+            </div>
 
-<section class="services">
-    <div class="container">
-        <h2>خدماتنا</h2>
-        <ul>
-            <li>إدارة منصات التواصل الاجتماعي</li>
-            <li>الإعلانات الممولة</li>
-            <li>بناء الهوية البصرية</li>
-            <li>إنتاج المحتوى الاحترافي</li>
-        </ul>
-    </div>
-</section>
+            <div class="hero-card" aria-label="Marketing performance summary">
+                <div class="card-header">
+                    <span data-ar="لوحة النمو" data-en="Growth Dashboard">لوحة النمو</span>
+                    <span class="status-dot"></span>
+                </div>
+                <div class="metric-box">
+                    <p data-ar="نمو التفاعل" data-en="Engagement Growth">نمو التفاعل</p>
+                    <strong>+184%</strong>
+                </div>
+                <div class="bars" aria-hidden="true">
+                    <span style="height: 42%"></span>
+                    <span style="height: 66%"></span>
+                    <span style="height: 48%"></span>
+                    <span style="height: 80%"></span>
+                    <span style="height: 58%"></span>
+                    <span style="height: 92%"></span>
+                </div>
+                <div class="mini-cards">
+                    <div>
+                        <small data-ar="المحتوى" data-en="Content">المحتوى</small>
+                        <b data-ar="إبداعي" data-en="Creative">إبداعي</b>
+                    </div>
+                    <div>
+                        <small data-ar="الإعلانات" data-en="Ads">الإعلانات</small>
+                        <b data-ar="موجهة" data-en="Targeted">موجهة</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<section class="english">
-    <div class="container">
-        <h2>About Us</h2>
-        <p>We are a full-service marketing agency in Libya helping brands grow through strategic marketing and creative content.</p>
-        
-        <h3>Our Services</h3>
-        <ul>
-            <li>Social Media Management</li>
-            <li>Paid Advertising</li>
-            <li>Brand Identity Development</li>
-            <li>Content Production</li>
-        </ul>
-    </div>
-</section>
+    <main>
+        <section id="about" class="section about-section">
+            <div class="container split-grid">
+                <div>
+                    <span class="section-tag" data-ar="من نحن" data-en="About Us">من نحن</span>
+                    <h2 data-ar="فريق إبداعي يجمع بين التسويق، التصميم، وصناعة المحتوى" data-en="A creative team combining marketing, design, and content creation">فريق إبداعي يجمع بين التسويق، التصميم، وصناعة المحتوى</h2>
+                </div>
+                <div class="section-text">
+                    <p data-ar="نحن وكالة تسويق رقمي في ليبيا نقدم حلولاً متكاملة تشمل إدارة السوشال ميديا، الإعلانات الممولة، بناء الهوية البصرية، وإنتاج المحتوى الاحترافي." data-en="We are a digital marketing agency in Libya offering integrated solutions including social media management, paid advertising, brand identity development, and professional content production.">
+                        نحن وكالة تسويق رقمي في ليبيا نقدم حلولاً متكاملة تشمل إدارة السوشال ميديا، الإعلانات الممولة، بناء الهوية البصرية، وإنتاج المحتوى الاحترافي.
+                    </p>
+                    <p data-ar="هدفنا هو تحويل أفكارك إلى حضور رقمي واضح، متناسق، وقابل للنمو." data-en="Our goal is to transform your ideas into a clear, consistent, and scalable digital presence.">
+                        هدفنا هو تحويل أفكارك إلى حضور رقمي واضح، متناسق، وقابل للنمو.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-<section id="contact" class="contact">
-    <div class="container">
-        <h2>تواصل معنا</h2>
-        <p>للتواصل معنا يرجى مراسلتنا عبر البريد الإلكتروني: info@yourdomain.com</p>
-    </div>
-</section>
+        <section class="stats-section" aria-label="Agency statistics">
+            <div class="container stats-grid">
+                <div class="stat-card">
+                    <strong>04+</strong>
+                    <span data-ar="خدمات أساسية" data-en="Core Services">خدمات أساسية</span>
+                </div>
+                <div class="stat-card">
+                    <strong>360°</strong>
+                    <span data-ar="حلول تسويقية متكاملة" data-en="Integrated Marketing Solutions">حلول تسويقية متكاملة</span>
+                </div>
+                <div class="stat-card">
+                    <strong>24/7</strong>
+                    <span data-ar="حضور رقمي مستمر" data-en="Continuous Digital Presence">حضور رقمي مستمر</span>
+                </div>
+            </div>
+        </section>
+                <div class="stat-card">
+                    <strong>360°</strong>
+                    <span>حلول تسويقية متكاملة</span>
+                </div>
+                <div class="stat-card">
+                    <strong>24/7</strong>
+                    <span>حضور رقمي مستمر</span>
+                </div>
+            </div>
+        </section>
 
-<footer>
-    <div class="container">
-        <p>© 2026 Project Agency - All Rights Reserved</p>
-    </div>
-</footer>
+        <section id="services" class="section services-section">
+            <div class="container">
+                <div class="section-heading centered">
+                    <span class="section-tag" data-ar="خدماتنا" data-en="Our Services">خدماتنا</span>
+                    <h2 data-ar="كل ما تحتاجه لبناء علامة رقمية قوية" data-en="Everything you need to build a strong digital brand">كل ما تحتاجه لبناء علامة رقمية قوية</h2>
+                    <p data-ar="نصمم تجربة تسويقية متكاملة تناسب نشاطك وجمهورك." data-en="We design an integrated marketing experience tailored to your business and audience.">نصمم تجربة تسويقية متكاملة تناسب نشاطك وجمهورك.</p>
+                </div>
 
+                <div class="services-grid">
+                    <article class="service-card">
+                        <span class="service-icon">📱</span>
+                        <h3 data-ar="إدارة منصات التواصل الاجتماعي" data-en="Social Media Management">إدارة منصات التواصل الاجتماعي</h3>
+                        <p data-ar="تخطيط المحتوى، كتابة المنشورات، تنظيم الجدولة، ومتابعة أداء الحسابات." data-en="Content planning, post writing, scheduling, and account performance tracking.">تخطيط المحتوى، كتابة المنشورات، تنظيم الجدولة، ومتابعة أداء الحسابات.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-icon">🎯</span>
+                        <h3 data-ar="الإعلانات الممولة" data-en="Paid Advertising">الإعلانات الممولة</h3>
+                        <p data-ar="حملات إعلانية موجهة للوصول إلى العملاء المناسبين وتحقيق أفضل عائد." data-en="Targeted ad campaigns to reach the right customers and achieve optimal ROI.">حملات إعلانية موجهة للوصول إلى العملاء المناسبين وتحقيق أفضل عائد.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-icon">✨</span>
+                        <h3 data-ar="بناء الهوية البصرية" data-en="Brand Identity">بناء الهوية البصرية</h3>
+                        <p data-ar="ألوان، خطوط، أسلوب تصميم، وقوالب بصرية تمنح علامتك شخصية واضحة." data-en="Colors, fonts, design style, and visual templates that give your brand a distinct personality.">ألوان، خطوط، أسلوب تصميم، وقوالب بصرية تمنح علامتك شخصية واضحة.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-icon">🎬</span>
+                        <h3 data-ar="إنتاج المحتوى الاحترافي" data-en="Content Production">إنتاج المحتوى الاحترافي</h3>
+                        <p data-ar="تصاميم، أفكار فيديو، نصوص إعلانية، ومحتوى مناسب لكل منصة." data-en="Designs, video concepts, ad copy, and content tailored for each platform.">تصاميم، أفكار فيديو، نصوص إعلانية، ومحتوى مناسب لكل منصة.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="section process-section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag" data-ar="طريقة العمل" data-en="Our Process">طريقة العمل</span>
+                    <h2 data-ar="من الفكرة إلى النتائج بخطوات واضحة" data-en="From idea to results in clear steps">من الفكرة إلى النتائج بخطوات واضحة</h2>
+                </div>
+
+                <div class="process-grid">
+                    <div class="process-step">
+                        <span>01</span>
+                        <h3 data-ar="تحليل العلامة" data-en="Brand Analysis">تحليل العلامة</h3>
+                        <p data-ar="نفهم نشاطك، جمهورك، وأهدافك التسويقية." data-en="We understand your business, audience, and marketing goals.">نفهم نشاطك، جمهورك، وأهدافك التسويقية.</p>
+                    </div>
+                    <div class="process-step">
+                        <span>02</span>
+                        <h3 data-ar="بناء الخطة" data-en="Plan Building">بناء الخطة</h3>
+                        <p data-ar="نجهز استراتيجية محتوى وإعلانات مناسبة للمرحلة." data-en="We develop a content and advertising strategy for your stage.">نجهز استراتيجية محتوى وإعلانات مناسبة للمرحلة.</p>
+                    </div>
+                    <div class="process-step">
+                        <span>03</span>
+                        <h3 data-ar="التنفيذ والتحسين" data-en="Execution & Optimization">التنفيذ والتحسين</h3>
+                        <p data-ar="نطلق المحتوى والحملات ثم نطور الأداء بناءً على النتائج." data-en="We launch content and campaigns, then optimize based on performance.">نطلق المحتوى والحملات ثم نطور الأداء بناءً على النتائج.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-card">
+                <div>
+                    <span class="section-tag" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</span>
+                    <h2 data-ar="جاهز تبني حضور رقمي أقوى؟" data-en="Ready to build a stronger digital presence?">جاهز تبني حضور رقمي أقوى؟</h2>
+                    <p data-ar="راسلنا الآن ودعنا نبدأ بتطوير ظهور علامتك التجارية بطريقة احترافية." data-en="Contact us now and let's start enhancing your brand professionally.">راسلنا الآن ودعنا نبدأ بتطوير ظهور علامتك التجارية بطريقة احترافية.</p>
+                </div>
+                <div class="contact-actions">
+                    <a class="btn btn-primary" href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                    <a class="btn btn-secondary" href="tel:+218000000000" data-ar="اتصل بنا" data-en="Call Us">اتصل بنا</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p data-ar="© 2026 Project Agency - جميع الحقوق محفوظة" data-en="© 2026 Project Agency - All Rights Reserved">© 2026 Project Agency - جميع الحقوق محفوظة</p>
+            <p data-ar="صُنع للعلامات التي تريد أن تنمو." data-en="Made for brands that want to grow.">صُنع للعلامات التي تريد أن تنمو.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Language switching functionality
+        const htmlRoot = document.getElementById('html-root');
+        const langToggle = document.getElementById('lang-toggle');
+        const elements = document.querySelectorAll('[data-ar][data-en]');
+
+        // Get saved language or default to Arabic
+        const currentLang = localStorage.getItem('siteLang') || 'ar';
+        setLanguage(currentLang);
+
+        langToggle.addEventListener('click', () => {
+            const newLang = htmlRoot.lang === 'ar' ? 'en' : 'ar';
+            setLanguage(newLang);
+            localStorage.setItem('siteLang', newLang);
+        });
+
+        function setLanguage(lang) {
+            htmlRoot.lang = lang;
+            htmlRoot.dir = lang === 'ar' ? 'rtl' : 'ltr';
+            langToggle.textContent = lang === 'ar' ? 'EN' : 'العربية';
+            
+            elements.forEach(element => {
+                element.textContent = element.getAttribute(`data-${lang}`);
+            });
+        }
+    </script>
 </body>
 </html>
